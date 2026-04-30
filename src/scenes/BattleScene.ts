@@ -255,7 +255,12 @@ export class BattleScene extends Phaser.Scene {
 
     const confirmButton = makeButton('確認答案', 'primary-button', () => {
       if (selected) {
-        this.confirmAnswer(selected);
+        const answer = selected;
+        selected = '';
+        answerGrid.querySelectorAll('.answer-button').forEach((element) => element.classList.remove('selected'));
+        confirmButton.setAttribute('disabled', 'true');
+        (document.activeElement as HTMLElement | null)?.blur();
+        this.confirmAnswer(answer);
       }
     });
     confirmButton.setAttribute('disabled', 'true');
