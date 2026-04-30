@@ -1,0 +1,12 @@
+Restored original high-detail RPG ground background for chinese-vocab-rpg.
+
+Intent:
+- Restore the first preserved map source from public/assets/map/_raw/vocab-world-base-raw.png.
+- Preserve the game's 2400x1500 MAP_SIZE, existing prop placement, blockers, player, vocabulary spirit, and boss coordinates.
+- Keep the map ground/background-only; existing props remain separate layered assets.
+- This is a restoration pass, not a new generated art direction.
+
+Implementation:
+- scripts/remake_ground_map.py resizes the preserved raw source to 2400x1500 using high-quality Lanczos resampling.
+- vocab-world-preview.png is rebuilt by compositing the unchanged MAP_PROPS over the restored base.
+- MAP_SIZE, MAP_BASE, MAP_PROPS, and MAP_BLOCKERS are intentionally unchanged.

@@ -1,0 +1,64 @@
+{
+  "target": "asset",
+  "mode": "single",
+  "prompt": "moss-stone top-down RPG map prop",
+  "role": "",
+  "input": "public\\assets\\props\\_raw\\moss-stone-raw.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 1,
+  "cols": 1,
+  "cell_size": 256,
+  "fit_scale": 0.88,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "feet",
+  "shared_scale": false,
+  "component_mode": "largest",
+  "component_padding": 8,
+  "min_component_area": 1,
+  "edge_touch_margin": 2,
+  "frame_labels": [
+    "single-1"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        1254,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 335521,
+      "selected_component_bbox": [
+        242,
+        312,
+        1004,
+        900
+      ],
+      "crop_bbox": [
+        234,
+        304,
+        1012,
+        908
+      ],
+      "edge_touch": false,
+      "output_size": [
+        225,
+        174
+      ],
+      "paste_position": [
+        15,
+        67
+      ]
+    }
+  ],
+  "edge_touch_frames": []
+}

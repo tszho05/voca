@@ -1,0 +1,40 @@
+{
+  "source": "public/assets/map/_raw/vocab-world-base-raw.png",
+  "source_size": {
+    "width": 1586,
+    "height": 992
+  },
+  "output_size": {
+    "width": 2400,
+    "height": 1500
+  },
+  "resampling": "Lanczos cover resize centered to 2400x1500",
+  "props_composited": [
+    "forest-tree-north-west",
+    "forest-tree-north-road",
+    "mail-hut-forest",
+    "ruin-pillar-north-west",
+    "ruin-pillar-north-east",
+    "town-cottage-upper-right",
+    "town-cottage-upper-left",
+    "forest-tree-post-hut",
+    "broken-arch-north",
+    "moss-stone-forest-clearing",
+    "round-well-plaza",
+    "lantern-post-east",
+    "lantern-post-west",
+    "moon-crystal-boss-clearing",
+    "moss-stone-forest-south",
+    "broken-arch-south",
+    "town-cottage-lower-left",
+    "town-cottage-lower-right",
+    "forest-tree-lower-road",
+    "ruin-pillar-south-west",
+    "forest-tree-lower-left",
+    "lantern-post-south",
+    "ruin-pillar-south-east",
+    "forest-tree-border"
+  ],
+  "strategy": "restore original high-detail ground-only base plus existing props preview",
+  "interfaces_changed": false
+}

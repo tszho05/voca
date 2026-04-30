@@ -1,0 +1,175 @@
+{
+  "target": "creature",
+  "mode": "idle",
+  "prompt": "spirit-0-hush-leaf quiet gentle high fantasy vocabulary spirit idle sheet",
+  "role": "",
+  "input": "public\\assets\\sprites\\_raw\\spirit-0-hush-leaf-raw.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 2,
+  "cols": 2,
+  "cell_size": 96,
+  "fit_scale": 0.8,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "center",
+  "shared_scale": true,
+  "component_mode": "largest",
+  "component_padding": 4,
+  "min_component_area": 1,
+  "edge_touch_margin": 2,
+  "frame_labels": [
+    "idle-1",
+    "idle-2",
+    "idle-3",
+    "idle-4"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 60783,
+      "selected_component_bbox": [
+        205,
+        163,
+        483,
+        533
+      ],
+      "crop_bbox": [
+        201,
+        159,
+        487,
+        537
+      ],
+      "edge_touch": false,
+      "output_size": [
+        58,
+        76
+      ],
+      "paste_position": [
+        19,
+        10
+      ]
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 61762,
+      "selected_component_bbox": [
+        83,
+        139,
+        381,
+        507
+      ],
+      "crop_bbox": [
+        79,
+        135,
+        385,
+        511
+      ],
+      "edge_touch": false,
+      "output_size": [
+        62,
+        76
+      ],
+      "paste_position": [
+        17,
+        10
+      ]
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 63596,
+      "selected_component_bbox": [
+        134,
+        49,
+        478,
+        419
+      ],
+      "crop_bbox": [
+        130,
+        45,
+        482,
+        423
+      ],
+      "edge_touch": false,
+      "output_size": [
+        71,
+        76
+      ],
+      "paste_position": [
+        12,
+        10
+      ]
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 61044,
+      "selected_component_bbox": [
+        107,
+        53,
+        379,
+        423
+      ],
+      "crop_bbox": [
+        103,
+        49,
+        383,
+        427
+      ],
+      "edge_touch": false,
+      "output_size": [
+        56,
+        76
+      ],
+      "paste_position": [
+        20,
+        10
+      ]
+    }
+  ],
+  "edge_touch_frames": []
+}

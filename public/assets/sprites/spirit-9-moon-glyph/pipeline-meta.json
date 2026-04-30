@@ -1,0 +1,175 @@
+{
+  "target": "creature",
+  "mode": "idle",
+  "prompt": "spirit-9-moon-glyph quiet gentle high fantasy vocabulary spirit idle sheet",
+  "role": "",
+  "input": "public\\assets\\sprites\\_raw\\spirit-9-moon-glyph-raw.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 2,
+  "cols": 2,
+  "cell_size": 96,
+  "fit_scale": 0.8,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "center",
+  "shared_scale": true,
+  "component_mode": "largest",
+  "component_padding": 4,
+  "min_component_area": 1,
+  "edge_touch_margin": 2,
+  "frame_labels": [
+    "idle-1",
+    "idle-2",
+    "idle-3",
+    "idle-4"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 84228,
+      "selected_component_bbox": [
+        180,
+        124,
+        493,
+        543
+      ],
+      "crop_bbox": [
+        176,
+        120,
+        497,
+        547
+      ],
+      "edge_touch": false,
+      "output_size": [
+        56,
+        74
+      ],
+      "paste_position": [
+        20,
+        11
+      ]
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 84931,
+      "selected_component_bbox": [
+        110,
+        117,
+        423,
+        547
+      ],
+      "crop_bbox": [
+        106,
+        113,
+        427,
+        551
+      ],
+      "edge_touch": false,
+      "output_size": [
+        56,
+        76
+      ],
+      "paste_position": [
+        20,
+        10
+      ]
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 78444,
+      "selected_component_bbox": [
+        172,
+        65,
+        512,
+        469
+      ],
+      "crop_bbox": [
+        168,
+        61,
+        516,
+        473
+      ],
+      "edge_touch": false,
+      "output_size": [
+        61,
+        72
+      ],
+      "paste_position": [
+        17,
+        12
+      ]
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 84082,
+      "selected_component_bbox": [
+        105,
+        60,
+        418,
+        479
+      ],
+      "crop_bbox": [
+        101,
+        56,
+        422,
+        483
+      ],
+      "edge_touch": false,
+      "output_size": [
+        56,
+        74
+      ],
+      "paste_position": [
+        20,
+        11
+      ]
+    }
+  ],
+  "edge_touch_frames": []
+}

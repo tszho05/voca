@@ -1,0 +1,175 @@
+{
+  "target": "creature",
+  "mode": "idle",
+  "prompt": "spirit-8-diary-wisp quiet gentle high fantasy vocabulary spirit idle sheet",
+  "role": "",
+  "input": "public\\assets\\sprites\\_raw\\spirit-8-diary-wisp-raw.png",
+  "threshold": 100,
+  "edge_threshold": 150,
+  "duration": 200,
+  "rows": 2,
+  "cols": 2,
+  "cell_size": 96,
+  "fit_scale": 0.8,
+  "trim_border": 4,
+  "edge_clean_depth": 3,
+  "align": "center",
+  "shared_scale": true,
+  "component_mode": "largest",
+  "component_padding": 4,
+  "min_component_area": 1,
+  "edge_touch_margin": 2,
+  "frame_labels": [
+    "idle-1",
+    "idle-2",
+    "idle-3",
+    "idle-4"
+  ],
+  "frames": [
+    {
+      "grid": [
+        0,
+        0
+      ],
+      "source_box": [
+        0,
+        0,
+        627,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 65002,
+      "selected_component_bbox": [
+        195,
+        132,
+        438,
+        552
+      ],
+      "crop_bbox": [
+        191,
+        128,
+        442,
+        556
+      ],
+      "edge_touch": false,
+      "output_size": [
+        45,
+        76
+      ],
+      "paste_position": [
+        25,
+        10
+      ]
+    },
+    {
+      "grid": [
+        0,
+        1
+      ],
+      "source_box": [
+        627,
+        0,
+        1254,
+        627
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 73015,
+      "selected_component_bbox": [
+        75,
+        132,
+        421,
+        526
+      ],
+      "crop_bbox": [
+        71,
+        128,
+        425,
+        530
+      ],
+      "edge_touch": false,
+      "output_size": [
+        63,
+        72
+      ],
+      "paste_position": [
+        16,
+        12
+      ]
+    },
+    {
+      "grid": [
+        1,
+        0
+      ],
+      "source_box": [
+        0,
+        627,
+        627,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 62601,
+      "selected_component_bbox": [
+        195,
+        49,
+        485,
+        412
+      ],
+      "crop_bbox": [
+        191,
+        45,
+        489,
+        416
+      ],
+      "edge_touch": false,
+      "output_size": [
+        53,
+        66
+      ],
+      "paste_position": [
+        21,
+        15
+      ]
+    },
+    {
+      "grid": [
+        1,
+        1
+      ],
+      "source_box": [
+        627,
+        627,
+        1254,
+        1254
+      ],
+      "component_mode": "largest",
+      "component_count": 1,
+      "selected_component_area": 64396,
+      "selected_component_bbox": [
+        118,
+        65,
+        362,
+        480
+      ],
+      "crop_bbox": [
+        114,
+        61,
+        366,
+        484
+      ],
+      "edge_touch": false,
+      "output_size": [
+        45,
+        75
+      ],
+      "paste_position": [
+        25,
+        10
+      ]
+    }
+  ],
+  "edge_touch_frames": []
+}
