@@ -204,11 +204,11 @@ async function main() {
     await clickText('首字提示');
 
     const hint = await evalJs(`document.querySelector('.feedback')?.textContent ?? ''`);
-    if (hint.trim() !== '首字提示：寧') {
+    if (hint.trim() !== '首字提示：叫') {
       throw new Error(`Scholar hint should reveal only the first character; got "${hint}"`);
     }
 
-    await clickText('寧靜');
+    await clickText('叫嚷');
     await clickText('確認答案');
     await waitFor(`document.querySelectorAll('.touch-key').length === 4 && !document.querySelector('.battle-panel')`, 'return to map with clean DOM controls');
 
